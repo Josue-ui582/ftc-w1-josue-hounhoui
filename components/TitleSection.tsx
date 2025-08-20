@@ -4,7 +4,7 @@ import React from "react";
 const TitleSection = () => {
     return(
         <div className="flex flex-col gap-6 relative items-center">
-            <p className="w-fit text-gray-400 border-[.5px] border-gray-400 text-[15px] rounded-xl px-2 py-1 text-center">
+            <p className="w-fit text-gray-400 border-[.5px] border-gray-400 text-[15px] rounded-full px-2 py-1 text-center">
                 We just raised $20M in Series B. Learn more
             </p>
             <h1 className="text-5xl text-center font-medium">
