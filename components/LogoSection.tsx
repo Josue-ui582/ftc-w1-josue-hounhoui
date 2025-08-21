@@ -1,5 +1,12 @@
 import Image from "next/image";
 import React from "react";
+import logo1 from "./asserts/logo-1.png"
+import logo2 from "./asserts/logo-2.png"
+import logo3 from "./asserts/logo-3.png"
+import logo4 from "./asserts/logo-4.png"
+import logo5 from "./asserts/logo-5.png"
+import logo6 from "./asserts/logo-6.png"
+import logo7 from "./asserts/logo-7.png"
 
 const LogoSection = () => {
     return(
@@ -7,46 +14,32 @@ const LogoSection = () => {
             <p className="text-gray-400">Trusted by teams at over 1,000 of the world’s leading organizations</p>
             <div className="flex gap-8">
                 <Image 
-                    src="/logo-1.png"
+                    src={logo1}
                     alt="Logo sponsor"
-                    width={60}
-                    height={10}
                 />
                 <Image 
-                    src="/logo-2.png"
+                    src={logo2}
                     alt="Logo sponsor"
-                    width={70}
-                    height={10}
                 />
                 <Image 
-                    src="/logo-3.png"
+                    src={logo3}
                     alt="Logo sponsor"
-                    width={80}
-                    height={30}
                 />
                 <Image 
-                    src="/logo-4.png"
+                    src={logo4}
                     alt="Logo sponsor"
-                    width={140}
-                    height={30}
                 />
                 <Image 
-                    src="/logo-5.png"
+                    src={logo5}
                     alt="Logo sponsor"
-                    width={60}
-                    height={30}
                 />
                 <Image 
-                    src="/logo-6.png"
+                    src={logo6}
                     alt="Logo sponsor"
-                    width={80}
-                    height={30}
                 />
                 <Image 
-                    src="/logo-7.png"
+                    src={logo7}
                     alt="Logo sponsor"
-                    width={60}
-                    height={30}
                 />
             </div>
         </div>
