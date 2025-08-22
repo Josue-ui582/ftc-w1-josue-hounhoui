@@ -4,7 +4,7 @@ import imageWrapper from "./asserts/image-wrapper.png"
 
 const TitleSection = () => {
     return (
-        <div className="flex flex-col gap-6 relative items-center text-center">
+        <div className="flex flex-col gap-4 md:gap-6 relative items-center text-center">
             <p className="w-fit text-gray-400 border-[.5px] border-gray-400 
                 text-xs sm:text-sm md:text-[15px] rounded-full px-2 py-1">
                 We just raised $20M in Series B. Learn more
@@ -34,7 +34,7 @@ const TitleSection = () => {
                 </button>
             </div>
 
-            <div className="relative mt-6 w-full flex justify-center">
+            <div className="relative w-full flex justify-center">
                 <Image 
                     src={imageWrapper}
                     alt="ImageWrapper"

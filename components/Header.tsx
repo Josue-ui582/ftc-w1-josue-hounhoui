@@ -5,7 +5,7 @@ import headerImage from "./asserts/header-background.jpg"
 
 const Header = () => {
   return (
-    <header className="relative w-full md:h-screen h-[65vh]">
+    <header className="relative w-full md:h-screen">
       <Image 
         src={headerImage}
         alt="Background"
