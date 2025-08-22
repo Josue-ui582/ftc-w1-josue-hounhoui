@@ -9,3 +9,11 @@ body {
   background: var(--background);
   font-family: "Montserrat", sans-serif;
 }
+
+nav{
+  background-color: #05000f;
+}
+
+#mobile-menu{
+  background-color: #05000f;
+}

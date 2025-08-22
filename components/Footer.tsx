@@ -3,10 +3,10 @@ import Image from "next/image";
 
 const Footer = () => {
     return(
-        <footer className="flex justify-center items-center">
-            <div className="w-[60%] py-8">
-                <div className="flex justify-between gap-5 items-end">
-                    <div className="flex gap-5 justify-center items-center">
+        <footer className="flex justify-center items-center mt-20">
+            <div className="md:w-[60%] w-[90%] md:py-8 py-4">
+                <div className="flex md:flex-row flex-col md:justify-between justify-center md:gap-5 gap-3 md:items-end items-center">
+                    <div className="flex md:flex-row flex-col md:gap-5 gap-3 justify-center md:items-start items-start">
                         <div className="flex flex-col items-start justify-start gap-4">
                             <h4 className="text-gray-200 text-xl">Contact</h4>
                             <div className="text-gray-400 text-[15px]">
@@ -18,7 +18,6 @@ const Footer = () => {
                                 <h4 className="text-gray-200 text-xl">Carrer</h4>
                                 <p className="text-gray-400 text-[15px]">Careers@vaultflow.com</p>
                             </div>
-                            <p className="text-gray-500 text-[15px]">© 2023 Vaultflow. All Rights Reserved.</p>
                         </div>
                         <div className="flex flex-col items-start justify-start gap-4">
                             <h4 className="text-gray-200 text-xl">Address</h4>
@@ -36,7 +35,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div className="flex items-center justify-center gap-2">
                         <Image 
                             src="/logo.png"
                             alt="Logo"
@@ -46,6 +45,7 @@ const Footer = () => {
                         <p className="text-white font-bold">VaultFlow</p>
                     </div>
                 </div>
+                <p className="text-gray-500 text-[15px] text-center mt-10">© 2023 Vaultflow. All Rights Reserved.</p>
             </div>
         </footer>
     )

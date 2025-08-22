@@ -1,12 +1,12 @@
 import React from "react";
 import Card from "./Card";
-import icon1 from "./asserts/icon-1.png"
-import icon2 from "./asserts/icon-2.png"
+import icon1 from "./asserts/icon-1.png";
+import icon2 from "./asserts/icon-2.png";
 
 const CardSection = () => {
-    return(
-        <section className="flex justify-center items-center mt-20">
-            <div className="flex justify-center items-center gap-4 w-[60%]">
+    return (
+        <section className="flex justify-center items-center mt-20 px-4">
+            <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-4 w-full sm:w-[80%] md:w-[60%]">
                 <Card 
                     logo={icon1}
                     title="Analytics Dashboard"
