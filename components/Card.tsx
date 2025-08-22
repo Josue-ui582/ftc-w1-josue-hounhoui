@@ -1,9 +1,10 @@
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import { StaticImageData } from "next/image";
 
 interface Props  {
-    logo : any;
+    logo : StaticImageData | string;
     title : string;
     content : string;
     link : string

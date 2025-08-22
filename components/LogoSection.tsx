@@ -12,7 +12,7 @@ const LogoSection = () => {
     return (
         <div className="md:mt-72 flex flex-col justify-center items-center md:gap-12 gap-6 px-4">
             <p className="text-gray-400 text-center text-sm sm:text-base max-w-[600px] mb-4 md:mb-0">
-                Trusted by teams at over 1,000 of the world’s leading organizations
+                Trusted by teams at over 1,000 of the world&apos;s leading organizations
             </p>
 
             <div className="
